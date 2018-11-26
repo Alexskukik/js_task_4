@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+
+}
+
+.bg{
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    background: url(bg3.jpg);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 90vw;
+    min-height: 90vh;
+    margin-top:0.5vw;
+    border: rgb(97, 72, 43) solid;
+    background: #f7efe1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.text{
+    font-size: 5vw;
+    color: rgb(97, 72, 43);
+    font-style: italic;
+}
+
+.new_task{
+    margin-top: 2vw;
+}
+
+.task{
+    width: 40vw;
+    height: 4vh;
+}
+
+.date{
+    width: 10vw;
+    height: 4vh;
+}
+
+input{
+    border-radius: 5vw;
+}
+
+.add_task{
+    width: 10vw;
+    height: 5vh;
+    background-color:  #fffaf0;
+    color: rgb(117, 93, 66);
+}
+
+.clear{
+    width: 10vw;
+    height: 5vh;
+    background-color:  #ebb7a4;
+    color: rgb(117, 93, 66);
+}
+
+.list{
+    margin-top: 1vw;
+    width: 60vw;
+    min-height: 50vh;
+    background-color: #fffaf083;
+    border-radius: 5vw;
+    padding: 5vw;
+}
+
+.check{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.date_value{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.del{
+    height: 1,5vw;
+    min-width: 5vw;
+    font-size: 1vw;
+    background: #ebb7a4;
+}
+
+.block{
+    border: 0.1vw #f7efe1 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.date_and_task{
+    width: 50vw;
+    max-width: 60vw;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.task_value{
+    
+    width: 40vw;
+    max-width: 40vw;
+}
+
+.space{
+    max-width: 3vw;
+    min-width: 3vw;
+}
+
+.date_value{
+    min-width: 6vw;
+    margin: 0.5vw;
+}
